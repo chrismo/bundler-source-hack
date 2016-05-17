@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mail (1.0.0)
+      mime-types (>= 1.0)
+      treetop (>= 1.4)
+    mime-types (2.0)
+    polyglot (0.2.5)
+    treetop (1.4.1)
+      polyglot (>= 0.2.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mail
+
+BUNDLED WITH
+   1.10.6
