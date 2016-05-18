@@ -120,7 +120,8 @@ a `:git` or `:path` source by name. But due to an old bug, Bundler only checked 
 allows the `--source` hack to work. This is what [Issue/PR 3763](https://github.com/bundler/bundler/pull/3763) fixed
 (checking the gem spec's source's name) while leaving the now depended upon hack in place (checking the gem spec's name).
 
-Referring to the [mail-gem-success](mail-gem-success) example, in the "conservative update" `bundle install` use case,
+Referring to the [mail-gem-success](mail-gem-success) example, in the "conservative update" `bundle install` use case
+(the user modifies the requirement of the dependency listed in the Gemfile, then runs `bundle install`),
 here are the values of the `deps` and `converged` arrays:
 
 | deps | converged |
@@ -145,7 +146,8 @@ In the `--source` hack use case, here are the values of the `deps` and `converge
 |             | polyglot |
 |            | treetop |
 
-In this case, the Gemfile wasn't altered, so both `mail` and `mime-types` make it into the `deps` array. All 4 gems
+In this case, the Gemfile isn't altered in advance, so both `mail` and `mime-types` make it into the `deps` array.
+All 4 gems
 would have made it into the `converged` array, except for the glitchy line of code checking the value of the
 `--source` option against the _name_ of the `mail` gem spec, not the name of its source, so the `mail` gem is removed
 from the `converged` array.
