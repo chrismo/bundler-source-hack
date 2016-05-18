@@ -10,7 +10,7 @@ what's going on and includes some code samples to demonstrate different aspects 
 
 ## TL;DR
 
-[Skip to the end!](https://github.com/chrismo/bundler-source-hack#why-then-does-the-hack-sometimes-not-work)
+[Skip to the end!](README.md#why-then-does-the-hack-sometimes-not-work)
 
 ## Background
 
