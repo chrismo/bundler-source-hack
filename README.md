@@ -10,7 +10,7 @@ what's going on and includes some code samples to demonstrate different aspects 
 
 ## TL;DR
 
-[Skip to the end!](README.md#why-then-does-the-hack-sometimes-not-work)
+Scroll to the end of the page! (or [try this link which may or may not work for you because browsers!](README.md#why-then-does-the-hack-sometimes-not-work))
 
 ## Background
 
@@ -24,6 +24,10 @@ In 2015, a helpful contributor ([@neoeno](https://github.com/neoeno)) dove into 
 [Bundler issue 3759](https://github.com/bundler/bundler/issues/3759), with a fix for the 'broken' code as well
 as an additional patch to attempt to keep the undocumented behavior intact
 ([Issue/PR 3763](https://github.com/bundler/bundler/pull/3763)).
+
+[_editor's note: if the author were to actually *read* all of the comments in that PR, including
+[this one](https://github.com/bundler/bundler/issues/3759#issuecomment-120759663), the author might have been able skip
+some of the 'research' below, but the odds of learning by reading these days is so slim, why bother? :facepalm:_]
 
 ## Research
 
