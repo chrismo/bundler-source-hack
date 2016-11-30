@@ -181,6 +181,7 @@ When you started asking questions it would seem.
 
 ### What Are We Going To Do About This?
 
-Perhaps I can interest you in checking out my [bundler-patch](https://github.com/livingsocial/bundler-patch) gem?
-It's a Bundler plugin designed to provide a lot of options to conservatively update gems in a Bundle. Check
-it out and if you love it or dislike it, lemme know. If you hate it, keep that to yourself.
+Three options: 
+- upgrade to Bundler 1.13 which has some undocumented support for conservative updates.
+- update to Bundler 1.14 (when it's released) which will have these options documented, slightly expanded, and officially supported.
+- check out my [bundler-patch](https://github.com/livingsocial/bundler-patch) gem, which has a few additional options that won't be ported into Bundler proper.
